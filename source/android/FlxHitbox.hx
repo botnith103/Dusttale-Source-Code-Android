@@ -87,11 +87,11 @@ class FlxHitbox extends FlxSpriteGroup
 	{
 		return switch (orgType){
 			case NORMAL:
-				return Paths.getSparrowAtlas('androidcontrols/hitbox/normal');
+				Paths.getSparrowAtlas('androidcontrols/hitbox/normal');
 			case FIVE:
-				return Paths.getSparrowAtlas('androidcontrols/hitbox/five');
+				Paths.getSparrowAtlas('androidcontrols/hitbox/five');
 			case FIVE_UP:
-				return Paths.getSparrowAtlas('androidcontrols/hitbox/five-up');
+				Paths.getSparrowAtlas('androidcontrols/hitbox/five-up');
 		}
 	}
 
