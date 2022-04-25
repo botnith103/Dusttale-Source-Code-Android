@@ -136,7 +136,7 @@ class CpuStrums extends Option
 		FlxG.save.data.cpuStrums = !FlxG.save.data.cpuStrums;
 		
 		display = updateDisplay();
-		return true;
+		return false;
 	}
 
 	private override function updateDisplay():String
